@@ -22,6 +22,7 @@ $(function() {
     },
 
     initialize: function() {
+      $(this.el).addClass(this.model.toJSON().type);
       this.render();
     },
 

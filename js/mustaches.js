@@ -7,5 +7,5 @@ Mustaches = {
   answerPost  : "",
   videoPost   : "",
   audioPost   : "",
-  photoPost   : ""
+  photoPost   : "{{# photos }}{{# original_size }}<img src='{{url}}' height='{{height}}' width='{{width}}'{{/ original_size }}{{/ photos}}{{{ caption }}}"
 };
